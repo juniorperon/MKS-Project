@@ -1,6 +1,6 @@
 import './styles.css';
 import Button from '../button'
-import React , { useState} from "react";
+import React  from "react";
 
 
 interface ProductCardProps {
@@ -14,9 +14,6 @@ interface ProductCardProps {
 
 
 const ProductCard: React.FC<ProductCardProps> = ({ brand,name, price, description, imageUrl,handleBuyClick }) => {
-
- 
-  
   return (
     <div className="product-card">
       <img src={imageUrl} alt={brand + name} className='image' />

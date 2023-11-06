@@ -72,7 +72,7 @@ function App() {
 const Products = styled.div`
  display: flex;
     flex-wrap: wrap;
-    padding: 5% 20% 5% 20%;
+    padding: 5% 10% 5% 10%;
    
     border-radius: 20px;
     justify-content: center;
